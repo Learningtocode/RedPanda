@@ -17,18 +17,57 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-        <button id="expand-navigation">-</button>
-
-<section class="wrapper opened">
-  <ul>
-    <li><a href="#"><span class="icon-tumblr"></span></a></li>
-    <li><a href="#"><span class="icon-facebook"></span></a></li>
-    <li><a href="#"><span class="icon-google-plus"></span></a></li>
-    <li><a href="#"><span class="icon-dribbble"></span></a></li>
-    <li><a href="#"><span class="icon-github"></span></a></li>
-    <li><a href="#"><span class="icon-twitter"></span></a></li>
+    <!--Dear awsome person, I am working hard to get it all working, then I will streemline and econamize markup css and js, I need some help with the auto centering tabs, any ideas-->
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">  
+</head>
+<body>
+<div class="layer">
+<nav class="navbar navbar-default slide-tab" role="navigation">
+  <div class="container-fluid scroll invisibar">
+      <ul class="nav navbar-nav breakscroll">
+        <li class="active"><a href="#">Foo</a></li>
+        <li><a href="#">Bar</a></li>
+        <li><a href="#">Thunder</a></li>
+        <li><a href="#">Flash</a></li>
+        <li><a href="#">Hotdog</a></li>
+        <li><a href="#">Bar</a></li>
+        <li><a href="#">Thunder</a></li>
+        <li><a href="#">Flash</a></li>
+        <li><a href="#">Hotdog</a></li>
+        <li><a href="#">Bar</a></li>
+        <li><a href="#">Thunder</a></li>
+        <li><a href="#">Flash</a></li>
+        <li><a href="#">Hotdog</a></li>
+        <li><a href="#">Bar</a></li>
+        <li><a href="#">Thunder</a></li>
+        <li><a href="#">Flash</a></li>
+        <li><a href="#">Hotdog</a></li>
+    </ul> 
+  </div>
+  <ul class="control">
+      <li><span class="glyphicon glyphicon-search"></span></li>
+      <li><span class="glyphicon glyphicon-align-justify muted"></span></li>
   </ul>
-</section>
-
-<div class="overlay on-overlay"></div>
+</nav>
+  <div class="hotspot">
+    <div class="half slide" data="left">
+      <button class="click"></button>
+    </div>
+    <div class="half slide" data="right">
+      <button class="click"></button>
+    </div>
+  </div>
+  <div class="dash scroll invisibar">
+    <div class="panes breakscroll">
+    
+    </div>
+  </div>
+</div>
+ 
+  
+ 
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script> 
+<body> 
 </html>
