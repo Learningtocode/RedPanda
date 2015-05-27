@@ -19,9 +19,10 @@ and open the template in the editor.
     </head>
     <header>
     <ul class="nav">
-        <li><a href="">Home</a></li>
-        <li><a href="">Login</a></li>
-        <li><a href="">Logout</a></li>               
+        <li><a href="index.php">Home</a></li>
+        <li><a href="login.php">Login</a></li>
+        <li><a href="register.php">New User</a></li>
+        <li><a href="<?php echo $path . "controller/logout-user.php"; ?>">Logout</a></li>               
         <li><a href="">Search</a></li>
     </ul>
     </header>
