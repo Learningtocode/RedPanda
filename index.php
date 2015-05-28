@@ -10,16 +10,20 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        
         <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css"> 
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css"> 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
-        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css"/>
-        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script> 
+
         <link type="text/css" rel="stylesheet" href="css/styling.css">   
     </head>
-        <h1 class="plaintext">PlainSong</h1>
-        <div class="stuck-head">
-            <a class="nav-btn" id="nav-open" href="#sidebar"menu><span>menu</span></a>
+    <body>
+        
+        <!-- NAVIGATION BAR -->
+<h1 class="plaintext">PlainSong</h1>
+<div class="stuck-head">
+            <a class="nav-btn" id="nav-open" href="#sidebar" menu><span>menu</span></a>
         </div>
             <!--off canvas nav-->
             <div id="menu">
@@ -32,7 +36,9 @@ and open the template in the editor.
                     </ul>
                 </nav>
             </div>
-       <body>     
+            
+        <!-- END OF NAVIGATION BAR -->
+          
        <div id="columns">
            
            <figure>
@@ -66,9 +72,9 @@ and open the template in the editor.
            <figure>
                <img name="Lana" src="images/Lana Profile.jpg"  id="Lana" alt=""  />
                <figcaption>
-                   <p>Lana Del Rey - Blue Jeans</p>
+                   <p>Lana Del Rey - Lolita</p>
                    <audio controls>
-                   <source src="music/Blue Jeans.mp3" >
+                       <source src="music/Lolita.mp3" >
                </figcaption>
            </figure>
 
@@ -116,6 +122,36 @@ and open the template in the editor.
                    <source src="music/Tears Dry On Their Own.mp3" >
                </figcaption>
            </figure>
+           
+           <figure>
+               <img name="Bring" src="images/Bring H Profile.jpg" id="Bring" alt=""  />
+               <figcaption>
+                   <p>Bring Me The Horizon - Can You Feel My Heart</p>
+                   <audio controls>
+                       <source src="music/Can You Feel My Heart.mp3" >
+               </figcaption>
+           </figure>
+           
+           <figure>
+               <img name="Coldplay" src="images/Coldplay Profile.gif" id="Coldplay" alt=""  />
+               <figcaption>
+                   <p>Coldplay - Clocks</p>
+                   <audio controls>
+                       <source src="music/Clocks.mp3" >
+               </figcaption>
+           </figure>
+           
+           <figure>
+               <img name="Queen" src="images/Queen Profile.jpg" id="Queen" alt=""  />
+               <figcaption>
+                   <p>Queen - Don't Stop Me Now</p>
+                   <audio controls>
+                       <source src="music/Don't Stop Me Now.mp3" >
+               </figcaption>
        </div>
+           
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+           <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script
+           <script src="customs.js"</script>
     </body>
 </html>
