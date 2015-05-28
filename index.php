@@ -8,15 +8,13 @@ and open the template in the editor.
     <head>
         <title>PlainSong: Artists</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css"> 
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css"> 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css"/>
-        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>  
-        <script type="text/javascript" src="jquery-1.7.1.js"></script>
-        <script type="text/javascript">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>        
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script> 
         <link type="text/css" rel="stylesheet" href="css/styling.css">   
     </head>
         <h1 class="plaintext">PlainSong</h1>
@@ -54,6 +52,7 @@ and open the template in the editor.
                         <source src="music/Money Trees.mp3" >
                </figcaption>
            </figure>
+              
 
            <figure>
                <img name="Chance" src="images/Chance Profile.jpg"  id="Chance" alt=""  />
