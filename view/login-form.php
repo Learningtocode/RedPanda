@@ -2,6 +2,7 @@
      require_once(__DIR__ . "/../model/config.php");
 ?>  
 
+<body>
 <h1>Login</h1> 
    
 <!--Method is how we are sending the information via php.-->
@@ -21,4 +22,5 @@
        <button type="submit" class="btn btn-default">Submit</button>
     </div>
 </form>
+</body>
 

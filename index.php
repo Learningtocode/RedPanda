@@ -19,7 +19,6 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>        
         <link type="text/css" rel="stylesheet" href="css/styling.css">   
     </head>
-    <body>
         <h1 class="plaintext">PlainSong</h1>
         <div class="stuck-head">
             <a class="nav-btn" id="nav-open" href="#sidebar"menu><span>menu</span></a>
@@ -35,7 +34,7 @@ and open the template in the editor.
                     </ul>
                 </nav>
             </div>
- 
+       <body>     
        <div id="columns">
            
            <figure>
@@ -52,7 +51,7 @@ and open the template in the editor.
                <figcaption>
                    <p>Kendrick Lamar - Money Trees</p>
                     <audio controls>
-                     <source src="music/.mp3" >
+                        <source src="music/Money Trees.mp3" >
                </figcaption>
            </figure>
 
@@ -61,7 +60,7 @@ and open the template in the editor.
                <figcaption>
                    <p>Chance The Rapper - Prom Night</p>
                     <audio controls>
-                     <source src="music/.mp3" >
+                     <source src="music/Prom Night.mp3" >
                </figcaption>
            </figure>
            
@@ -70,17 +69,16 @@ and open the template in the editor.
                <figcaption>
                    <p>Lana Del Rey - Blue Jeans</p>
                    <audio controls>
-                   <source src="music/.mp3" >
+                   <source src="music/Blue Jeans.mp3" >
                </figcaption>
            </figure>
 
            <figure>
                <img name="Cole" src="images/Cole Profile.jpg" id="Cole" alt=""  />
-               <div id="trackJC"></div>
                <figcaption>
                    <p>J Cole - She Knows</p>
                    <audio controls>
-                   <source src="music/.mp3" >
+                   <source src="music/She Knows.mp3" >
                </figcaption>
            </figure>
 
@@ -89,7 +87,7 @@ and open the template in the editor.
                <figcaption>
                    <p>21 Pilots - Tear In My Heart</p>
                    <audio controls>
-                   <source src="music/.mp3" >
+                   <source src="music/Tear In My Heart.mp3" >
                </figcaption>
            </figure> 
            
@@ -98,7 +96,7 @@ and open the template in the editor.
                <figcaption>
                    <p>Dumbfoundead - 24KTOWN</p>
                    <audio controls>
-                   <source src="music/.mp3" >
+                       <source src="music/24KTOWN .mp3" >
                </figcaption>
            </figure>
 
@@ -107,7 +105,7 @@ and open the template in the editor.
                <figcaption>
                    <p>Jhene Aiko - Spotless Mind</p>
                    <audio controls>
-                   <source src="music/.mp3" >
+                   <source src="music/Spotless Mind.mp3" >
                </figcaption>
            </figure>
            
@@ -116,10 +114,9 @@ and open the template in the editor.
                <figcaption>
                    <p>Amy Winehouse - Tears Dry On Their Own</p>
                    <audio controls>
-                   <source src="music/.mp3" >
+                   <source src="music/Tears Dry On Their Own.mp3" >
                </figcaption>
            </figure>
-           
        </div>
     </body>
 </html>

@@ -7,8 +7,6 @@ body {
   font-family: helvetica;
   min-height: 1000px;
 }
-
-
 h1 {
   text-align: center;
   margin: 25% auto auto auto;
@@ -151,6 +149,7 @@ div#columns figure figcaption {
 }
 
 
+
 div#columns small { 
   font-size: 1rem;
   float: right; 
@@ -173,3 +172,6 @@ div#columns:hover figure:not(:hover) {
   #columns figure { width: 100%; }
 }
   
+form {
+    text-align: center;
+}

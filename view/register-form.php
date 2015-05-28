@@ -2,6 +2,7 @@
  require_once(__DIR__ . "/../model/config.php");
 ?>  
  
+<body>
 <h1>Register</h1>  
   
 <form class="form-group" method="post" action="<?php echo $path . "controller/create-user.php"; ?>"> 
@@ -26,3 +27,4 @@
        <button type="submit" class="btn btn-default" >Submit</button>
     </div>
 </form>
+<body>
