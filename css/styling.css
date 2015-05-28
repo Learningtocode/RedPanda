@@ -1,3 +1,4 @@
+/* This is the css for the navigation buttonns at upper right corner*/
 body {
   background: #420350;
   font-family: helvetica;
@@ -34,4 +35,12 @@ a:hover, a:focus {
   -webkit-border-radius: 4px; /* safari & chrome */
   -moz-border-radius: 4px; /* firefox */
   border-radius: 4px; /* futureproof */
+}
+
+.block {
+    position: absolute;
+    background: #eee;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #ddd;
 }

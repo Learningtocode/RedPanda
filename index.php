@@ -26,4 +26,10 @@ and open the template in the editor.
         <li><a href="">Search</a></li>
     </ul>
     </header>
+    <body onload="setupBlocks();">
+       <div class="block">
+           <img src="images/Adele Profile.jpg"> 
+           <figcaption>Adele</figcaption>
+       </div>
+    </body>
 </html>

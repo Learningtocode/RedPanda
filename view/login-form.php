@@ -8,7 +8,7 @@
 <form class="form-inline" method="post" action="<?php echo $path . "controller/login-user.php"?>">
      <div class="form-group" >  
         <label for="username" for="exampleInputName2">Username: </label> 
-        <input type="text" name="username"  class="form-control" id="exampleInputName2" placeholder="Jane Doe"/>
+        <input type="text" name="username"  class="form-control" id="exampleInputName2" placeholder="Your Username"/>
     </div> 
       
   <!--The reason why we put password is because we don't want the letters showing when typing.-->
