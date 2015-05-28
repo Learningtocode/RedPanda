@@ -31,52 +31,39 @@ and open the template in the editor.
        <div id="columns">
            
         <figure>
-            <img name="Adele" src="images/Adele Profile.jpg" width="180" height="180" border="0" id="Adele" alt=""  />
+            <img name="Adele" src="images/Adele Profile.jpg"  id="Adele" alt=""  />
             <div id="trackA"></div>
-	<figcaption></figcaption>
+	<figcaption>Adele - Chasing Pavement</figcaption>
 	</figure>
-           </div>
-	
+           
 	<figure>
-            <img >
-            <div id="Kendrick"></div>
-	<figcaption></figcaption>
+            <img name="Kendrick" src="images/Kendrick Profile.jpg"  id="Kendrick" alt=""  />
+            <div id="trackK"></div>
+	<figcaption>Kendrick Lamar - Money Trees</figcaption>
 	</figure>
          
         <figure>
-            <div id="Lana"><img src=""></div>
-	<figcaption></figcaption>
+            <img name="Lana" src="images/Lana Profile.jpg"  id="Lana" alt=""  />
+            <div id="trackL"></div>
+	<figcaption>Lana Del Rey - Blue Jeans</figcaption>
 	</figure>
   
 	<figure>
-	<img src="">
+            <img name="Cole" src="images/Cole Profile.jpg" id="Cole" alt=""  />
+            <div id="trackJC"></div>
+	<figcaption>J Cole - She Knows</figcaption>
+	</figure>
+	
+   <figure>
+	<img name="" src="images/" id="" alt=""  />
 	<figcaption></figcaption>
 	</figure>
 	
    <figure>
-	<img src="">
+	 <img name="" src="images/" id="" alt=""  />
 	<figcaption></figcaption>
 	</figure>
-	
-   <figure>
-	 <img src="">
-	<figcaption></figcaption>
-	</figure>
-  
-	<figure>
-	<img src="">
-	<figcaption></figcaption>
-	</figure>	
-  
-   <figure>
-	<img src="">
-	<figcaption>Ariel wearing an evening gown of the 1890’s</figcaption>
-	</figure>
-  
-    <figure>
-	<img src="">
-    <figcaption></figcaption>
-	</figure>	
+  	
        </div>
     </body>
 </html>
